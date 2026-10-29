@@ -6,7 +6,7 @@ notebook_authors: [
 ]
 notebook_title: "Validating Sentinel-3 SLSTR Land Surface Temperature with climval"
 docker_image_used: "Python"
-makes_use_of_eopf_zarr_sample_service_data: true
+makes_use_of_eopf_zarr_sample_service_data: false
 incorporates_one_or_more_eopf_plugins: false
 data_sources_used: ["Sentinel-3"]
 had_challenges_working_with_sample_service_data: true
@@ -30,8 +30,8 @@ custom Kling-Gupta Efficiency metric is added in ten lines.
 
 This notebook was developed with assistance from Claude (Anthropic). AI was used to
 help structure the validation pipeline, draft code cells, and iterate on debugging
-during live testing on the EOPF JupyterHub. All code has been reviewed, tested, and
-validated by the authors. The climval library used in this notebook was independently
+during live testing on the EOPF JupyterHub. The authors reviewed and ran all code. The
+climval library used in this notebook was independently
 developed and published to PyPI by Northflow Technologies AS. Scientific interpretation,
 metric selection, and reference choices were made by the authors. AI assistance is
 disclosed in accordance with the competition rules.
